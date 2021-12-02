@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Valeriya Kozhevnikova">
+    <title>FIGMA DAILY UI CHALLENGE - DAY 26</title>
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <p class="day">DaY 26</p>
+    <section class="menu">
+        <img class="menu__avatar" src="./images/Mask Group.png" alt="avatar">
+        <h1 class="menu__name">Jonathan W.</h1>
+        <p class="menu__job-position">Webflow Dev</p>
+        <p class="menu__plan">Plan: <span class="menu__plan_upper">Personal</span></p>
+        <ul class="menu__items">
+            <li class="menu__item menu__item_active"><img src="./images/profile.svg" class="menu__icon"
+                    alt="icon">Profile</li>
+            <li class="menu__item"><img src="./images/choice.svg" class="menu__icon" alt="icon">Plans</li>
+            <li class="menu__item"><img src="./images/credit-card (1).svg" class="menu__icon" alt="icon">Billing</li>
+            <li class="menu__item"><img src="./images/puzzle.svg" class="menu__icon" alt="icon">Integrations</li>
+            <li class="menu__item"><img src="./images/receipt.svg" class="menu__icon" alt="icon">Billing Tools</li>
+            <li class="menu__item"><img src="./images/shopping-cart (1).svg" class="menu__icon" alt="icon">Purchases
+            </li>
+            <li class="menu__item"><img src="./images/mail.svg" class="menu__icon" alt="icon">Email Settings</li>
+            <li class="menu__item"><img src="./images/locked.svg" class="menu__icon" alt="icon">Security</li>
+        </ul>
+        <button class="menu__button"><img src="./images/star.svg" class="menu__icon menu__button-icon"
+                alt="icon">Upgrade</button>
+        <button class="menu__button"><img src="./images/profile.svg" class="menu__icon menu__button-icon"
+                alt="icon">Public Profile</button>
+    </section>
+
+    <section class="page">
+        <div class="page__section">
+            <h2 class="page__title">Account Info</h2>
+            <div class="page__input-wrapper">
+                <label for="f-name" class="page__label">First Name</label>
+                <input id="f-name" class="page__input" placeholder="Jonathan" type="text">
+            </div>
+            <div class="page__input-wrapper">
+                <label for="l-name" class="page__label">Last Name</label>
+                <input id="l-name" class="page__input" placeholder="Webster" type="text">
+            </div>
+            <p class="page__tip">Displayed on your public profile, notifications and other places.</p>
+            <div class="page__input-wrapper">
+                <label for="username" class="page__label">Username</label>
+                <input id="username" class="page__input" placeholder="jon_holmes" type="text">
+            </div>
+            <div class="page__input-wrapper">
+                <label for="email" class="page__label">Email Address</label>
+                <input id="email" class="page__input" placeholder="jon_holmes@gmail.com" type="email">
+            </div>
+            <p class="page__tip">Username must be between 3 and 20 characters long containing only letters and numbers
+                with no
+                spaces. Used in public pages like your public profile.</p>
+        </div>
+
+        <div class="page__section">
+            <h2 class="page__title">Profile Info</h2>
+            <div class="page__input-wrapper">
+                <label for="city" class="page__label">City</label>
+                <input id="city" class="page__input" placeholder="New York" type="text">
+            </div>
+            <div class="page__input-wrapper">
+                <label for="country" class="page__label">Country</label>
+                <input id="country" class="page__input" placeholder="USA" type="text">
+            </div>
+            <p class="page__tip">Displayed on your public profile and showcase pages. Prospective clients can find you
+                by searching your location.</p>
+            <div class="page__input-wrapper">
+                <label for="portfolio" class="page__label">Portfolio</label>
+                <input id="portfolio" class="page__input" placeholder="New York" type="text">
+            </div>
+            <div class="page__input-wrapper page__input-wrapper_type_checkbox">
+                <label for="portfolio" class="page__label page__label_type_checkbox">Available for Hire?</label>
+                <input id="portfolio" class="page__input page__input_type_checkbox" placeholder="New York"
+                    type="checkbox">
+            </div>
+            <p class="page__tip">Clients and businesses are able to contact you using a contact for on your public
+                profile. We'll send you an email when someone tries to contact you.</p>
+            <div class="page__textarea-wrapper">
+                <textarea class="page__textarea" placeholder="Bio" maxlength="140"></textarea>
+            </div>
+            <p class="page__tip">Your short bio will show up on your profile page. Let the world know a little about you.</p>
+            <div class="page__input-wrapper page__input-wrapper_size_l">
+                <label for="skills" class="page__label">Skills</label>
+                <input id="skills" class="page__input" placeholder="" type="text">
+            </div><p class="page__tip">Your skills will show up on your profile page. Let people know your top strengths.</p>            
+        </div>
+    </section>
+</body>
+
+</html>

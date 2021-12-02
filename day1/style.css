@@ -1,0 +1,231 @@
+.body {
+    min-height: 895px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#E01E3C 0%, #2D324F 100%);
+}
+
+.container {
+    margin: 0 auto;
+    background-image: url("./images/beats-logo.png");
+    background-repeat: no-repeat;    
+    background-position: center;
+}
+
+.day{
+    position: absolute;
+    top: 17px;
+    right: 19px;
+    margin: 0;
+    font-family: Roboto;
+    font-size: 96px;
+    line-height: 112px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.05);
+}
+
+.canvas {
+    position: relative;
+    top: 144px;
+    width: 414px;
+    height: 736px;
+    margin: 0 auto;
+    background: linear-gradient(#2D324F 0%, #E01E3C 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.inner {
+    position: relative;
+    top: -96px;
+    padding: 18px;
+}
+
+.product {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.product__card {
+    position: relative;
+    
+    height: 404px;
+    background: linear-gradient(#E01E3C 0%, #2D324F 100%);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.product__img {   
+    position: relative;
+    top: -49px;
+    width: 306px;
+    height: 306px;
+}
+
+.product__selectors {
+    display: flex;
+    gap: 7.5px;
+    justify-content: center;
+}
+
+.product__selector {
+
+    width: 16.5px;
+    border-bottom: 1px solid rgba(242, 242, 242, 0.4);;
+}
+
+.product__selector_active {
+    border-color: #fff;
+}
+
+.product__price {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
+}
+
+.product__colors {
+    position: absolute;
+    bottom: 16px;
+    left: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+.product__color {
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.product__color_type_black {
+    background-color: #000;
+}
+
+.product__color_type_blue {
+    background-color: #29598D;
+}
+
+.product__color_type_olive {
+    background-color: #49494D;
+}
+
+.buyon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 16px;
+    right: -49px;
+    width: 124px;
+    height: 52px;
+    margin: 0;
+    background-color: #E01E3C;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(45, 50, 79, 0.5);
+    border-radius: 100px;
+    font-size: 19px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff
+}
+
+.buyon__image {
+    width: 19px;
+    height: 24px;
+    margin-left: 7px;
+    margin-bottom: 7px;
+}
+
+.product__title {   
+    margin: 10px 0 0; 
+    font-family: 'Roboto Mono';
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.products__title-up {
+    position: relative;
+    bottom: 10px;
+}
+
+.product__stars {
+    display: flex;
+}
+
+.product__star {
+    width: 14px;
+    height: 13px;
+}
+
+.product__reviews {
+    margin: 0 0 0 5px;
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.description {
+    margin: 15px 0;
+}
+
+.description__text {
+    margin: 0;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.description__options {
+    display: flex;
+    gap: 9px;
+    margin: 10px 0 15px;
+}
+
+.description__option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 6px 10px;
+    width: 185px;
+    background: #2D324F;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-family: Open Sans;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.similar__title {
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+    color: #FFF;
+}
+
+.similar__products {
+    display: flex;
+    gap: 15px;
+}
+
+.similar__product{
+    width: 148px;
+    height: 130px;
+    filter: drop-shadow(3px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
