@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Valeriya Kozhevnikova">
     <title>FIGMA DAILY UI CHALLENGE - DAY 1</title>
-    <link href="./style.css" rel="stylesheet">
+    <link href="./index.css" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Roboto+Mono:wght@300&display=swap"
         rel="stylesheet">
@@ -14,9 +14,12 @@
 
 <body class="body">
     <div class="container">
-        <p class="day">DaY 01</p>
+        <div class="title">
+            <p class="title__day">DaY 01</p>
+            <p class="title__header">01 - Beats x</p>
+        </div>
         <div class="canvas">
-            <div class="inner">
+            <div class="canvas__inner">
                 <section class="product">
                     <div class="product__card">
                         <img class="product__img" src="images/beats-x-white.png" alt="product">
@@ -37,13 +40,18 @@
                         <p class="buyon">BUY ON <img class="buyon__image" src="./images/Apple logo.svg"
                                 alt="apple logo"></p>
                     </div>
-                    <h1 class="product__title">Beats<span class="products__title-up">x</span></h1>
-                    <div class="product__stars">
-                        <img src="./images/star.svg" class="product__star" alt="star">
-                        <img src="./images/star.svg" class="product__star" alt="star">
-                        <img src="./images/star.svg" class="product__star" alt="star">
-                        <img src="./images/star.svg" class="product__star" alt="star">
-                        <p class="product__reviews">64 Reviews</p>
+                    <div class="product__title-wrapper">
+                        <div>
+                            <h1 class="product__title">Beats<span class="product __title-up">x</span></h1>
+                            <div class="product__stars">
+                                <img src="./images/star.svg" class="product__star" alt="star">
+                                <img src="./images/star.svg" class="product__star" alt="star">
+                                <img src="./images/star.svg" class="product__star" alt="star">
+                                <img src="./images/star.svg" class="product__star" alt="star">
+                                <p class="product__reviews">64 Reviews</p>
+                            </div>
+                        </div>
+                        <img src="images/W1 Chip.svg">
                     </div>
                 </section>
 

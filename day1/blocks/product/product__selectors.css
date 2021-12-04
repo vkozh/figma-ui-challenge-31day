@@ -1,0 +1,5 @@
+.product__selectors {
+    display: flex;
+    gap: 7.5px;
+    justify-content: center;
+}

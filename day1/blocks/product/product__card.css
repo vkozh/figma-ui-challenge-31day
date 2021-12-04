@@ -1,0 +1,8 @@
+.product__card {
+    position: relative;
+    
+    height: 404px;
+    background: linear-gradient(#E01E3C 0%, #2D324F 100%);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}

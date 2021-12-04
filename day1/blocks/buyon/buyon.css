@@ -1,0 +1,19 @@
+.buyon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 16px;
+    right: -49px;
+    width: 124px;
+    height: 52px;
+    margin: 0;
+    background-color: #E01E3C;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(45, 50, 79, 0.5);
+    border-radius: 100px;
+    font-size: 19px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff
+}

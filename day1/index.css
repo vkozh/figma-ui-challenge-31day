@@ -1,0 +1,40 @@
+@import url("./blocks/body/body.css");
+@import url("./blocks/container/container.css");
+
+@import url("./blocks/title/title.css");
+@import url("./blocks/title/title__day.css");
+@import url("./blocks/title/title__header.css");
+
+@import url("./blocks/canvas/canvas.css");
+@import url("./blocks/canvas/canvas__inner.css");
+
+@import url("./blocks/product/product.css");
+@import url("./blocks/product/product__card.css");
+@import url("./blocks/product/product__color.css");
+@import url("./blocks/product/product__color_type_black.css");
+@import url("./blocks/product/product__color_type_blue.css");
+@import url("./blocks/product/product__color_type_olive.css");
+@import url("./blocks/product/product__colors.css");
+@import url("./blocks/product/product__img.css");
+@import url("./blocks/product/product__price.css");
+@import url("./blocks/product/product__reviews.css");
+@import url("./blocks/product/product__selectors.css");
+@import url("./blocks/product/product__selector.css");
+@import url("./blocks/product/product__selector_active.css");
+@import url("./blocks/product/product__stars.css");
+@import url("./blocks/product/product__star.css");
+@import url("./blocks/product/product__title-wrapper.css");
+@import url("./blocks/product/product__title.css");
+@import url("./blocks/product/product__title-up.css");
+
+@import url("./blocks/buyon/buyon.css");
+@import url("./blocks/buyon/buyon__image.css");
+
+@import url("./blocks/description/description.css");
+@import url("./blocks/description/description__options.css");
+@import url("./blocks/description/description__option.css");
+@import url("./blocks/description/description__text.css");
+
+@import url("./blocks/similar/similar__products.css");
+@import url("./blocks/similar/similar__product.css");
+@import url("./blocks/similar/similar__title.css");

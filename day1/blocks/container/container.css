@@ -1,0 +1,6 @@
+.container {
+    margin: 0 auto;
+    background-image: url("./images/beats-logo.png");
+    background-repeat: no-repeat;    
+    background-position: center;
+}
