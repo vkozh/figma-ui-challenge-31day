@@ -1,0 +1,39 @@
+@import url("./blocks/body/body.css");
+
+@import url("./blocks/title/title.css");
+@import url("./blocks/title/title__day.css");
+@import url("./blocks/title/title__header.css");
+@import url("./blocks/title/title_position_center.css");
+
+@import url("./blocks/menu/menu.css");
+@import url("./blocks/menu/menu__avatar.css");
+@import url("./blocks/menu/menu__icon.css");
+@import url("./blocks/menu/menu__button.css");
+@import url("./blocks/menu/menu__icon_type_button.css");
+@import url("./blocks/menu/menu__item.css");
+@import url("./blocks/menu/menu__item_active.css");
+@import url("./blocks/menu/menu__items.css");
+@import url("./blocks/menu/menu__job-position.css");
+@import url("./blocks/menu/menu__name.css");
+@import url("./blocks/menu/menu__plan.css");
+@import url("./blocks/menu/menu__plan_upper.css");
+
+@import url("./blocks/page/page.css");
+@import url("./blocks/page/page__input-wrapper.css");
+@import url("./blocks/page/page__input-wrapper_size_l.css");
+@import url("./blocks/page/page__input-wrapper_type_checkbox.css");
+@import url("./blocks/page/page__input.css");
+@import url("./blocks/page/page__input_type_checkbox.css");
+@import url("./blocks/page/page__label.css");
+@import url("./blocks/page/page__label_type_checkbox.css");
+@import url("./blocks/page/page__section.css");
+@import url("./blocks/page/page__textarea-wrapper.css");
+@import url("./blocks/page/page__textarea.css");
+@import url("./blocks/page/page__tip.css");
+@import url("./blocks/page/page__title.css");
+@import url("./blocks/page/page__inside-tip.css");
+@import url("");
+@import url("");
+@import url("");
+@import url("");
+@import url("");

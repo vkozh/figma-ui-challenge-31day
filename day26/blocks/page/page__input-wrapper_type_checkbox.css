@@ -1,0 +1,7 @@
+.page__input-wrapper_type_checkbox {
+    /*display: flex;
+    justify-content: space-between;*/
+    position: relative;
+    border: none;
+    box-shadow: none;
+}

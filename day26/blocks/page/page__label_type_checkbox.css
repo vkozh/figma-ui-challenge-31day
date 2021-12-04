@@ -1,0 +1,7 @@
+.page__label_type_checkbox {
+    width: 100%;
+    color: #4353FF;
+    border: none;
+    z-index: 2;
+    cursor: pointer;
+}

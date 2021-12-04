@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Valeriya Kozhevnikova">
     <title>FIGMA DAILY UI CHALLENGE - DAY 26</title>
-    <link href="./style.css" rel="stylesheet">
+    <link href="./index.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body class="body">
-    <p class="day">DaY 26</p>
+    <div class="title title_position_center">
+        <p class="title__day">DaY 26</p>
+        <p class="title__header">26 - Settings</p>
+    </div>
     <section class="menu">
         <img class="menu__avatar" src="./images/Mask Group.png" alt="avatar">
         <h1 class="menu__name">Jonathan W.</h1>
@@ -29,9 +32,9 @@
             <li class="menu__item"><img src="./images/mail.svg" class="menu__icon" alt="icon">Email Settings</li>
             <li class="menu__item"><img src="./images/locked.svg" class="menu__icon" alt="icon">Security</li>
         </ul>
-        <button class="menu__button"><img src="./images/star.svg" class="menu__icon menu__button-icon"
+        <button class="menu__button" href="#"><img src="./images/star.svg" class="menu__icon menu__icon_type_button"
                 alt="icon">Upgrade</button>
-        <button class="menu__button"><img src="./images/profile.svg" class="menu__icon menu__button-icon"
+        <button class="menu__button" href="#"><img src="./images/profile.svg" class="menu__icon menu__icon_type_button"
                 alt="icon">Public Profile</button>
     </section>
 
@@ -77,20 +80,24 @@
                 <input id="portfolio" class="page__input" placeholder="New York" type="text">
             </div>
             <div class="page__input-wrapper page__input-wrapper_type_checkbox">
-                <label for="portfolio" class="page__label page__label_type_checkbox">Available for Hire?</label>
-                <input id="portfolio" class="page__input page__input_type_checkbox" placeholder="New York"
+                <label for="hire" class="page__label page__label_type_checkbox">Available for Hire?</label>
+                <input id="hire" class="page__input page__input_type_checkbox" placeholder="New York"
                     type="checkbox">
+                    <span class="checkbox"></span>
             </div>
             <p class="page__tip">Clients and businesses are able to contact you using a contact for on your public
                 profile. We'll send you an email when someone tries to contact you.</p>
             <div class="page__textarea-wrapper">
                 <textarea class="page__textarea" placeholder="Bio" maxlength="140"></textarea>
+                <span class="page__inside-tip">Max 140 Characters</span>
             </div>
             <p class="page__tip">Your short bio will show up on your profile page. Let the world know a little about you.</p>
             <div class="page__input-wrapper page__input-wrapper_size_l">
                 <label for="skills" class="page__label">Skills</label>
                 <input id="skills" class="page__input" placeholder="" type="text">
-            </div><p class="page__tip">Your skills will show up on your profile page. Let people know your top strengths.</p>            
+                <span class="page__inside-tip">Max 10 Skills</span>
+            </div>
+            <p class="page__tip">Your skills will show up on your profile page. Let people know your top strengths.</p>            
         </div>
     </section>
 </body>

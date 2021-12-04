@@ -1,0 +1,9 @@
+.page__label {
+    padding: 16px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    white-space: nowrap;
+    color: rgba(67, 83, 255, 0.25);
+    border-right: 1px solid rgba(67, 83, 255, 0.4);;
+}
