@@ -1,0 +1,36 @@
+.container_theme_dark {
+    background-color: #171932;
+}
+
+.container_theme_dark .menu__item-title,
+.container_theme_dark .page__panel-title,
+.container_theme_dark .menu__sign-out {
+    color: #fff;
+}
+
+.container_theme_dark .page__panel,
+.container_theme_dark .menu__item_divider {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.container_theme_dark .sidebar {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.container_theme_dark .logo__img path {
+    fill: #fff;
+}
+
+.container_theme_dark .menu__icon,
+.container_theme_dark .card__active-icon {
+    filter: invert(1);
+}
+
+.container_theme_dark .menu__item_active .menu__icon,
+.container_theme_dark  .menu__icon_size_l {
+    filter: invert(0);
+}
+
+.container_theme_dark .card__active-text {
+    color: #fff;
+}

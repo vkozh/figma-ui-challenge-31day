@@ -1,0 +1,7 @@
+.card__icon {
+    padding: 20px 5px;
+}
+
+.card__icon:last-of-type{
+    padding-right: 10px;
+}

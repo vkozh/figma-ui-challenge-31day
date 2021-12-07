@@ -1,0 +1,7 @@
+.container {
+    margin: auto;
+    width: 1502px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+}

@@ -1,0 +1,5 @@
+.menu__item_divider {
+    margin: 7.5px 0;
+    padding: 0;
+    border-bottom: 1px solid rgba(67, 83, 255, 0.2);;
+}

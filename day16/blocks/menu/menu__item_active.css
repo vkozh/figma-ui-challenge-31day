@@ -1,0 +1,7 @@
+.menu__item_active {
+    background: rgba(67, 83, 255, 0.3);
+}
+
+.menu__item_active .menu__item-title {
+    color: #4353FF;
+}

@@ -1,0 +1,10 @@
+.page__panel {
+    box-sizing: border-box;
+    min-height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 20px;
+    border-bottom: 1px solid rgba(67, 83, 255, 0.2);;
+}

@@ -1,0 +1,9 @@
+.menu__icon-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #4353FF;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 32px;
+}

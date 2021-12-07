@@ -1,0 +1,14 @@
+.card:hover .card__active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+
+.card__active {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 0;
+}

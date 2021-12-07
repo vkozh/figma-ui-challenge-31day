@@ -1,0 +1,4 @@
+.card__icon-divider {
+    margin: 0 5px;
+    border-right: 1px solid rgba(255, 255, 255, .5);
+}

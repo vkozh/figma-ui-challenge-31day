@@ -1,0 +1,6 @@
+.sidebar {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgba(67, 83, 255, 0.2);
+}

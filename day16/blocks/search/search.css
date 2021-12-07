@@ -1,0 +1,10 @@
+.search {
+    box-sizing: border-box;
+    padding: 10px 10px 10px 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #4353FF;
+    box-sizing: border-box;
+    border-radius: 170px;
+    background-color: #fff;
+}

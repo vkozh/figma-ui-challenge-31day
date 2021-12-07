@@ -1,0 +1,13 @@
+.new-project {
+    padding: 11px 25px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: #4353FF;
+    box-sizing: border-box;
+    border-radius: 170px;
+    border: none;
+}
