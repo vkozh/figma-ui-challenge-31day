@@ -1,4 +1,6 @@
 .menu__sign-out {
+    flex-grow: 2;
+    text-align: end;
     font-family: Roboto;
     font-weight: normal;
     font-size: 10px;

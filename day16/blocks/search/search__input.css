@@ -1,6 +1,7 @@
 .search__input {
     border: none;
     background: none;
+    outline: none;
 }
 
 .search__input::placeholder{

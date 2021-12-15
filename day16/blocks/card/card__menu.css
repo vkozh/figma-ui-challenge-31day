@@ -7,4 +7,5 @@
     align-items: center;
     background-color: #4353FF;
     border-radius: 0 0 5px 5px;
+    z-index: 2;
 }

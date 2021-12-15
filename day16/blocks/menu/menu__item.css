@@ -3,5 +3,8 @@
     position: relative;
     display: flex;
     align-items: center;
-    padding: 15px 10px 15px 20px;
+}
+
+.menu__item:hover {
+    background: rgba(67, 83, 255, 0.3);
 }
