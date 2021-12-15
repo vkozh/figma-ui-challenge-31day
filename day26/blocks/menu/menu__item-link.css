@@ -1,0 +1,8 @@
+.menu__item-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: inherit;
+    text-decoration: none;
+}

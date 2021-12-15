@@ -4,11 +4,15 @@
     align-items: center;
     width: 200px;
     height: 58px;
-    padding: 20px;
     font-family: Roboto;
     font-weight: normal;
     font-size: 14px;
     line-height: 23px;
     color: #FFFFFF;
     opacity: .4;
+}
+
+.menu__item:hover {
+    background: rgba(255, 255, 255, 0.4);
+    opacity: 1;
 }

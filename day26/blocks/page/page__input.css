@@ -8,6 +8,7 @@
     color: #4353FF;
     border: none;
     background: none;
+    outline: none;
 }
 
 .page__input::placeholder {

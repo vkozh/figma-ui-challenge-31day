@@ -7,7 +7,7 @@
     <meta name="author" content="Valeriya Kozhevnikova">
     <title>FIGMA DAILY UI CHALLENGE - DAY 26</title>
     <link href="./index.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body class="body">
@@ -21,16 +21,22 @@
         <p class="menu__job-position">Webflow Dev</p>
         <p class="menu__plan">Plan: <span class="menu__plan_upper">Personal</span></p>
         <ul class="menu__items">
-            <li class="menu__item menu__item_active"><img src="./images/profile.svg" class="menu__icon"
-                    alt="icon">Profile</li>
-            <li class="menu__item"><img src="./images/choice.svg" class="menu__icon" alt="icon">Plans</li>
-            <li class="menu__item"><img src="./images/credit-card (1).svg" class="menu__icon" alt="icon">Billing</li>
-            <li class="menu__item"><img src="./images/puzzle.svg" class="menu__icon" alt="icon">Integrations</li>
-            <li class="menu__item"><img src="./images/receipt.svg" class="menu__icon" alt="icon">Billing Tools</li>
-            <li class="menu__item"><img src="./images/shopping-cart (1).svg" class="menu__icon" alt="icon">Purchases
-            </li>
-            <li class="menu__item"><img src="./images/mail.svg" class="menu__icon" alt="icon">Email Settings</li>
-            <li class="menu__item"><img src="./images/locked.svg" class="menu__icon" alt="icon">Security</li>
+            <li class="menu__item menu__item_active"><a class="menu__item-link" href="#"><img src="./images/profile.svg"
+                        class="menu__icon" alt="icon">Profile</a></li>
+            <li class="menu__item"><a class="menu__item-link" href="#"><img src="./images/choice.svg" class="menu__icon"
+                        alt="icon">Plans</a></li>
+            <li class="menu__item"><a class="menu__item-link" href="#"><img src="./images/credit-card (1).svg"
+                        class="menu__icon" alt="icon">Billing</a></li>
+            <li class="menu__item"><a class="menu__item-link" href="#"><img src="./images/puzzle.svg" class="menu__icon"
+                        alt="icon">Integrations</a></li>
+            <li class="menu__item"><a class="menu__item-link" href="#"><img src="./images/receipt.svg"
+                        class="menu__icon" alt="icon">Billing Tools</a></li>
+            <li class="menu__item"><a class="menu__item-link" href="#"><img src="./images/shopping-cart (1).svg"
+                        class="menu__icon" alt="icon">Purchases</a> </li>
+            <li class="menu__item"><a class="menu__item-link" href="#"><img src="./images/mail.svg" class="menu__icon"
+                        alt="icon">Email Settings</a></li>
+            <li class="menu__item"><a class="menu__item-link" href="#"><img src="./images/locked.svg" class="menu__icon"
+                        alt="icon">Security</a></li>
         </ul>
         <button class="menu__button" href="#"><img src="./images/star.svg" class="menu__icon menu__icon_type_button"
                 alt="icon">Upgrade</button>
@@ -81,9 +87,8 @@
             </div>
             <div class="page__input-wrapper page__input-wrapper_type_checkbox">
                 <label for="hire" class="page__label page__label_type_checkbox">Available for Hire?</label>
-                <input id="hire" class="page__input page__input_type_checkbox" placeholder="New York"
-                    type="checkbox">
-                    <span class="checkbox"></span>
+                <input id="hire" class="page__input page__input_type_checkbox" placeholder="New York" type="checkbox">
+                <span class="checkbox"></span>
             </div>
             <p class="page__tip">Clients and businesses are able to contact you using a contact for on your public
                 profile. We'll send you an email when someone tries to contact you.</p>
@@ -91,13 +96,14 @@
                 <textarea class="page__textarea" placeholder="Bio" maxlength="140"></textarea>
                 <span class="page__inside-tip">Max 140 Characters</span>
             </div>
-            <p class="page__tip">Your short bio will show up on your profile page. Let the world know a little about you.</p>
+            <p class="page__tip">Your short bio will show up on your profile page. Let the world know a little about
+                you.</p>
             <div class="page__input-wrapper page__input-wrapper_size_l">
                 <label for="skills" class="page__label">Skills</label>
                 <input id="skills" class="page__input" placeholder="" type="text">
                 <span class="page__inside-tip">Max 10 Skills</span>
             </div>
-            <p class="page__tip">Your skills will show up on your profile page. Let people know your top strengths.</p>            
+            <p class="page__tip">Your skills will show up on your profile page. Let people know your top strengths.</p>
         </div>
     </section>
 </body>
