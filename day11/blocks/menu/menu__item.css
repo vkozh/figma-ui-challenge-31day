@@ -1,0 +1,9 @@
+.menu__item {
+    height: 61px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.menu__link:last-of-type .menu__item{
+    margin-bottom: 30px;
+}

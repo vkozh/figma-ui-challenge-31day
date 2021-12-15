@@ -1,0 +1,13 @@
+.container_theme_dark {
+    background-color: #292726;
+}
+
+.container_theme_dark .menu__item {
+    filter: invert(1);
+}
+
+.container_theme_dark .header__title-date,
+.container_theme_dark .card__title,
+.container_theme_dark .card__time {
+    color: #fff
+}

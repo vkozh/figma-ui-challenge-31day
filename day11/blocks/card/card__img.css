@@ -1,0 +1,4 @@
+.card__img {
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 10px rgba(255, 80, 96, 0.2));
+}

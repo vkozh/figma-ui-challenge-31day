@@ -1,0 +1,10 @@
+.menu__link {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 1px;
+}
+
+.menu__link:hover {
+    outline: 1px solid rgb(163, 163, 163);
+}

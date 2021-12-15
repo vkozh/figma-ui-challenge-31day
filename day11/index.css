@@ -1,0 +1,31 @@
+@import url("./blocks/body/body.css");
+
+@import url("./blocks/container/container.css");
+@import url("./blocks/container/container__content.css");
+@import url("./blocks/container/container_theme_dark.css");
+
+@import url("./blocks/link/link.css");
+
+@import url("./blocks/title/title.css");
+@import url("./blocks/title/title__day.css");
+@import url("./blocks/title/title__header.css");
+
+@import url("./blocks/header/header.css");
+@import url("./blocks/header/header__title.css");
+@import url("./blocks/header/header__title-date.css");
+
+@import url("./blocks/menu/menu.css");
+@import url("./blocks/menu/menu__item.css");
+@import url("./blocks/menu/menu__link.css");
+
+@import url("./blocks/page/page.css");
+@import url("./blocks/page/page__card.css");
+@import url("./blocks/page/page__column.css");
+
+@import url("./blocks/card/card.css");
+@import url("./blocks/card/card__img.css");
+@import url("./blocks/card/card__menu.css");
+@import url("./blocks/card/card__title.css");
+@import url("./blocks/card/card__time.css");
+@import url("./blocks/card/card_position_horizontal.css");
+@import url("./blocks/card/card_size_big.css");

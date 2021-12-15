@@ -1,0 +1,10 @@
+.container {
+    width: 1400px;
+    margin: 130px auto 30px;
+    /*margin-bottom: 30px;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+}

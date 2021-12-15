@@ -1,0 +1,25 @@
+.card_position_horizontal {
+    flex-direction: row;
+    align-items: start;
+}
+
+.card_position_horizontal .card__img {
+    order: 2;
+    width: 125px;
+    margin-left: 10px;
+    /*border-radius: 0;*/
+    filter: none;
+}
+
+.card_position_horizontal .card__menu {
+    margin-top: 0;
+}
+
+.card_position_horizontal .card__title {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.card_position_horizontal .card__time {
+    margin-right: 9px;
+}

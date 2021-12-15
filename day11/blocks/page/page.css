@@ -1,0 +1,9 @@
+.page {
+   /* max-height: 580px;*/
+    display: flex;
+    justify-content: space-between;
+    /*flex-direction: column;
+    flex-wrap: wrap;*/
+    flex-grow: 1;
+    padding: 10px 20px;
+}
