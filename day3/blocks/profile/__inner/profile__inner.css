@@ -1,0 +1,9 @@
+.profile__inner {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -23px);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}

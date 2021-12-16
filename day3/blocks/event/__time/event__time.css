@@ -1,0 +1,9 @@
+.event__time {
+    margin: 0 0 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1;
+    color: rgba(187, 107, 217, 0.7);
+}

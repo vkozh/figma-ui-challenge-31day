@@ -1,0 +1,19 @@
+.calendar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../images/Subtract.png");
+    background-repeat: no-repeat;
+    width: 888px;
+    height: 600px;
+}
+
+.calendar:after {
+    background-image: url("../../images/Subtract\ \(3\).png");
+    content: "";
+    width: 888px;
+    height: 600px;
+    /* z-index: 0; */
+    position: absolute;
+}

@@ -1,0 +1,11 @@
+.profile__name {
+    margin: 20px 0 2px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: #FF3366;
+    text-align: center;
+}

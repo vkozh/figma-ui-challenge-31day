@@ -1,0 +1,15 @@
+.years__year {
+    margin: 0 0 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #FF3366;
+    text-decoration: none;
+}
+
+.years__year:nth-last-child(2) {
+    margin: 0;
+}

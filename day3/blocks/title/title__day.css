@@ -1,0 +1,8 @@
+.title__day {
+    margin: 0;    
+    font-family: Roboto;
+    font-size: 96px;
+    line-height: 112px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.05);
+}

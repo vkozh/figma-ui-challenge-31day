@@ -1,0 +1,11 @@
+.month__another-month {
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+}

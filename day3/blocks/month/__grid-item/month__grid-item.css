@@ -1,0 +1,21 @@
+.month__grid-item {
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.month__grid-item:nth-child(-n+7) {
+    margin-bottom: 30px;
+}

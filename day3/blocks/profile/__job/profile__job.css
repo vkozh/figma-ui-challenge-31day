@@ -1,0 +1,11 @@
+.profile__job {
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #FF3366;
+    text-align: center;
+}

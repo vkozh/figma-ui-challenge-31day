@@ -1,0 +1,43 @@
+@import url("./blocks/body/body.css");
+@import url("./blocks/container/container.css");
+
+@import url("./blocks/title/title.css");
+@import url("./blocks/title/title__day.css");
+@import url("./blocks/title/title__header.css");
+
+@import url("./blocks/profile/profile.css");
+@import url("./blocks/profile/__avatar/profile__avatar.css");
+@import url("./blocks/profile/__plus-button/profile__plus-button.css");
+@import url("./blocks/profile/__mask/profile__mask.css");
+@import url("./blocks/profile/__job/profile__job.css");
+@import url("./blocks/profile/__name/profile__name.css");
+@import url("./blocks/profile/__inner/profile__inner.css");
+@import url("./blocks/profile/__events/profile__events.css");
+@import url("./blocks/profile/__settings/profile__settings.css");
+
+@import url("./blocks/events/events.css");
+@import url("./blocks/events/__event/events_event.css");
+
+@import url("./blocks/event/__location/event__location.css");
+@import url("./blocks/event/__time/event__time.css");
+@import url("./blocks/event/__title/event__title.css");
+@import url("./blocks/event/__point/event__point.css");
+
+@import url("./blocks/calendar/calendar.css");
+
+@import url("./blocks/month/month.css");
+@import url("./blocks/month/__grid/month__grid.css");
+@import url("./blocks/month/__title/month__title.css");
+@import url("./blocks/month/__header/month__header.css");
+@import url("./blocks/month/__arrow/month__arrow.css");
+@import url("./blocks/month/__grid-item/month__grid-item.css");
+@import url("./blocks/month/__another-month/month__another-month.css");
+@import url("./blocks/month/__grid-item/_active/month__grid-item_active.css");
+
+@import url("./blocks/years/years.css");
+@import url("./blocks/years/__year/years__year.css");
+@import url("./blocks/years/__arrow/years__arrow.css");
+@import url("./blocks/years/__year/_size/years__year_size_m.css");
+@import url("./blocks/years/__year/_size/years__year_size_s.css");
+@import url("./blocks/years/__year/_size/years__year_size_xs.css");
+@import url("./blocks/years/__year/_size/years__year_size_xxs.css");

@@ -1,0 +1,17 @@
+.profile__plus-button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    background-color: #fff;
+    color: #FF3366;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 41px;
+    font-weight: 700;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-17px, 17px);
+}

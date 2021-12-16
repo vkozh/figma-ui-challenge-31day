@@ -1,0 +1,11 @@
+.years__arrow {
+    margin: 30px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #FF3366;
+    text-decoration: none;
+}

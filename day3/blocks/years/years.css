@@ -1,0 +1,14 @@
+.years {
+    position: absolute;
+    top: 39px;
+    right: -48px;
+    height: 521px;
+    width: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 5px;
+}

@@ -1,0 +1,4 @@
+.month {    
+    margin-left: calc((250px/2-96px/2)/2);
+    z-index: 1;
+}
