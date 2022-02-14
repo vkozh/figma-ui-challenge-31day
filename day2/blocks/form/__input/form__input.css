@@ -1,0 +1,11 @@
+.form__input {
+    margin: 0 11px 20px;
+    height: 33px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: double 1px transparent;
+    background-image: linear-gradient(white, white), linear-gradient(#E6246D, #BD6AD7);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.15);
+}

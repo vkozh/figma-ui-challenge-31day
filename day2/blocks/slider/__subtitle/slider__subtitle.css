@@ -1,0 +1,9 @@
+.slider__subtitle {
+    max-width: 326px;
+    margin: 0 auto 30px;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    text-align: center;
+}

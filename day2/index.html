@@ -4,9 +4,9 @@
 <head>
     <meta name="author" content="Valeria Kozhevnikova">
     <meta charset="utf-8">
-    <meta name="viewport" content="width: device-width, initial-scale:1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body class="body">
@@ -20,31 +20,57 @@
             <div class="container__control container__control_color_yellow"></div>
             <div class="container__control container__control_color_green"></div>
         </div>
-        <div class="container__slider slider">
+        <div class="slider">
             <h2 class="slider__title">Collections</h2>
             <p class="slider__subtitle">Explore the world through collections of beautiful photos free to use under the
                 Unsplash License.</p>
-            <div class="slider__card card">
-                <h3 class="card__title">Collection #139</h3>
-                <p class="card__description">A collection curated by the team at Thought Catalog, a digital magazine
-                    dedicated to stories and ideas, based in Brooklyn.</p>
-                <div class="card__brand">
-                    <img src="" alt="" class="card__logo">
-                    <p class="card__brand-name">Thought Catalog</p>
+
+            <div class="slider__card-wrapper">
+                <div class="card">
+                    <h3 class="card__title">Collection #139</h3>
+                    <p class="card__description">A collection curated by the team at Thought Catalog, a digital magazine
+                        dedicated to stories and ideas, based in Brooklyn.</p>
+                    <div class="card__brand">
+                        <img src="./assets/images/logo1.svg" alt="logo" class="card__logo">
+                        <p class="card__brand-name">Thought Catalog</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="card__title">Collection #137</h3>
+                    <p class="card__description">A collection curated by the Over team. Over is the easy app for
+                        creativity
+                        & design. Edit photos and add text & captions to pictures.</p>
+                    <div class="card__brand">
+                        <img src="./assets/images/logo2.svg" alt="logo" class="card__logo">
+                        <p class="card__brand-name">Over</p>
+                    </div>
                 </div>
             </div>
-            <div class="slider__card card">
-                <h3 class="card__title">Collection #137</h3>
-                <p class="card__description">A collection curated by the Over team. Over is the easy app for creativity
-                    & design. Edit photos and add text & captions to pictures.</p>
-                <div class="card__brand">
-                    <img src="" alt="" class="card__logo">
-                    <p class="card__brand-name">Over</p>
-                </div>
+            <div class="slider__triangles">
+                <img class="slider__triangle slider__triangle_active" class="slider__triangle"
+                    src="./assets/images/triangle.svg" alt="triangle">
+                <img class="slider__triangle" src="./assets/images/triangle.svg" alt="triangle">
+                <img class="slider__triangle" src="./assets/images/triangle.svg" alt="triangle">
+                <img class="slider__triangle" src="./assets/images/triangle.svg" alt="triangle">
+                <img class="slider__triangle" src="./assets/images/triangle.svg" alt="triangle">
             </div>
         </div>
-        <div class="container__form-side">
-
+        <div class="container__form-side form-side">
+            <img class="form-side__logo" src="./assets/images/Unsplash Logo.svg" alt="">
+            <h2 class="form-side__title">Unsplash</h2>
+            <p class="form-side__description">Free (do whatever you want) high-resolution photos.</p>
+            <div class="form-side__form-container">
+                <form class="form">
+                    <label for="input-email" class="form__label">Email Address</label>
+                    <input id="input-email" class="form__input">
+                    <label for="input-password" class="form__label">Password
+                        <a class="form-side__link" href="link">(Forgot?)</a>
+                    </label>
+                    <input id="input-password" class="form__input">
+                    <button class="form__login-button" type="submit">Login</button>
+                </form>
+                <p class="form-side__tip">Don't have an account? <a class="form-side__link" href="#">Join</a></p>
+            </div>
         </div>
     </div>
     </div>

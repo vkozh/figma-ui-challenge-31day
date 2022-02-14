@@ -1,0 +1,14 @@
+.slider__triangle{
+    opacity: .4;
+    width: 10px;
+    height: 12px;
+    margin-right: -3px;
+}
+
+.slider__triangle:nth-of-type(2n){
+    transform: rotateX(180deg);
+}
+
+.slider__triangle:last-of-type{
+    margin: 0;
+}
