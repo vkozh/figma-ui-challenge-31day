@@ -1,0 +1,11 @@
+.container__control{
+    width: 12px;
+    height: 12px;
+    margin-right: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.container__control:last-of-type{
+    margin: 0;
+}

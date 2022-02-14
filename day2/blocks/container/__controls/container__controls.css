@@ -1,0 +1,6 @@
+.container__controls {
+    position: absolute;
+    top: 19px;
+    left: 20px;
+    display: flex;
+}
