@@ -2,5 +2,9 @@
 
 Челлендж по макетам, представленным в Figma, -- это 31 задание для тренировки верстки различных шаблонов: мобильный вид, формы, меню, сетки, карточки и пр.
 
-
 [Подробнее](https://www.behance.net/gallery/51005247/31-DAY-DAILY-UI-CHALLENGE-IN-FIGMA)
+
+
+**Ссылка на Github Page:**
+
+[vkozh.github.io/figma-ui-challenge-31day](https://vkozh.github.io/figma-ui-challenge-31day/)
